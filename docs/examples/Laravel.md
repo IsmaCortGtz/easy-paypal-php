@@ -117,7 +117,7 @@ class PaypalController extends Controller {
         // Logica adicional para procesar ventas (dependera de tu desarrollo y lo que quieras hacer)
 
         $order = new PaypalOrder($this->paypalContext);
-        $success = $order->create($venta->getTotal());
+        $success = $order->create("12.50");
 
         if (!$success) {
             // Accion en caso de error
@@ -175,7 +175,7 @@ class PaypalController extends Controller {
         // Logica adicional para procesar ventas (dependera de tu desarrollo y lo que quieras hacer)
 
         $order = new PaypalOrder($this->paypalContext);
-        $success = $order->create($venta->getTotal());
+        $success = $order->create("12.50");
 
         if (!$success) {
             // Accion en caso de error
