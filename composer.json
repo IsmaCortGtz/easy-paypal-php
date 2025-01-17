@@ -1,0 +1,18 @@
+{
+    "name": "ismacortgtz/easy-paypal-php",
+    "description": "A lighweight php package to use the Paypal API",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "IsmaCortGtz\\EasyPayPalPhp\\": "src/" }
+    },
+    "authors": [
+        { "name": "IsmaCortGtz" }
+    ],
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5.39 || ^9.6.20"
+    }
+}
